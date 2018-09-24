@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import Contacts from "./components/contacts/Contacts";
 import Header from "./components/layout/Header";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+// import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
